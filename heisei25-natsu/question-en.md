@@ -10,11 +10,11 @@
 
 ### Table 1: L's instructions
 
-| Instruction | Description                                                                                                            |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ADD &emsp; $α$&emsp;$β$     | Add $α$ to $β$. The new value of $β$ is $α + β$. $β$ must be a variable name.                                               
-| CMP &emsp; $α$&emsp;$β$     | Skip the next instruction if $α$ equals $β$. Otherwise, move to the next instruction.                                       |
-| JMP &emsp; $α$&emsp;$β$     | Jump to the instruction $α$ lines below the current one (If $α$ is a negative integer, then jump backward). $β$ is not used.|
+| Instruction | Description |
+| ----------- | ----------- |
+| ADD $α$&emsp;$β$     | Add $α$ to $β$. The new value of $β$ is $α + β$. $β$ must be a variable name.                                               |
+| CMP $α$&emsp;$β$     | Skip the next instruction if $α$ equals $β$. Otherwise, move to the next instruction.                                       |
+| JMP $α$&emsp;$β$     | Jump to the instruction $α$ lines below the current one (If $α$ is a negative integer, then jump backward). $β$ is not used.|
 | PRN &emsp; $α$&emsp;$β$     | Print $α$ and $β$ and then terminate the execution.                                                                         |
 | SET &emsp; $α$&emsp;$β$     | Set $α$ to $β$. $α$ must be a variable name.                                                                                |
 
