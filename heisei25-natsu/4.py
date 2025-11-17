@@ -1,9 +1,10 @@
 from pathlib import Path
-from LMachine import LMachine
+from LMachine_SMP import LMachine
+
 
 def main() -> None:
     base_dir = Path(__file__).resolve().parent
-    program_path = base_dir / "data" / "prog5.txt"
+    program_path = base_dir / "data" / "prog3.txt"
     machine = LMachine.read_from_file(str(program_path))
     machine.run()
 
