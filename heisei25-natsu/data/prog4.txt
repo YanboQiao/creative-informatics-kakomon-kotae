@@ -1,0 +1,10 @@
+SET y 0
+SET x 0
+SUB 3 0
+SUB 5 0
+PRN x y
+SUB 3 0
+SUB 2 0
+BAK 0 0
+ADD 1 y
+BAK 0 0

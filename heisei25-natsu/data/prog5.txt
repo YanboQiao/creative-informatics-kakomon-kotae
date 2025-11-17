@@ -1,0 +1,14 @@
+SET n 3
+CAL 2 n
+PRN out 0
+CMP in 0
+JMP 4 0
+RET 0 0
+SET tmp 0
+SET tmp 0
+SET t in
+ADD -1 t
+CAL -7 t
+SET acc out
+ADD in acc
+RET acc 0

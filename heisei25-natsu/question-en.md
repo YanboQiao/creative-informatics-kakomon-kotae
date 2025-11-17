@@ -8,6 +8,17 @@
 
 ## Programming
 
+L is a very simple programming language. It has only five instructions shown in Table 1. Only x and y are variables available in L. For example,
+
+```
+SET x 1
+SET y -2
+ADD x y
+PRN x y
+```
+
+This code sets a variable x to 1 and sets y to -2. Then it computes x + y and stores the result in y. Finally, it prints the values of x and y and terminates.
+
 ### Table 1: L's instructions
 
 | Instruction | Description |
